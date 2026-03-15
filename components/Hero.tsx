@@ -41,10 +41,7 @@ export function Hero() {
               systems & crafted interfaces.
             </h1>
             <p className="mt-5 max-w-xl text-sm md:text-base text-slate-300">
-              I&apos;m Mohd Saad, a software engineer with 4+ years of
-              experience delivering full-stack web applications, subscription
-              platforms, and dashboards using React, Next.js, Node.js, and
-              modern cloud-native tooling.
+              I&apos;m Mohd Saad, a Full-Stack Software Engineer specialized in high-performance SaaS platforms, enterprise dashboards, and scalable backend systems with 4+ years of experience.
             </p>
 
             <div className="mt-7 flex flex-wrap gap-4">
@@ -63,6 +60,12 @@ export function Hero() {
                 <span>Download Resume</span>
                 <span className="text-xs text-slate-400">PDF</span>
               </a>
+              <Link
+                href="#contact"
+                className="inline-flex items-center justify-center gap-2 rounded-full border border-sky-500/30 bg-sky-500/5 px-6 py-2.5 text-sm font-medium text-sky-100 backdrop-blur-sm transition hover:bg-sky-500/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-400 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950"
+              >
+                <span>Contact me</span>
+              </Link>
             </div>
 
             <div className="mt-7 flex flex-wrap gap-3 text-xs text-slate-400">
@@ -133,8 +136,7 @@ export function Hero() {
                 <div className="flex flex-col justify-between gap-2 rounded-2xl border border-slate-800/80 bg-slate-900/70 p-3">
                   <p className="font-semibold text-slate-100">Stack</p>
                   <p className="text-slate-300/90">
-                    React.js · Next.js · Node.js · TypeScript ·
-                    MS SQL · MongoDB (SQL & NoSQL) · GCP/AWS
+                    TypeScript · Next.js · Node.js · Spring Boot · MS SQL · AWS/GCP
                   </p>
                 </div>
               </div>

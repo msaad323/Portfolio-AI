@@ -18,7 +18,7 @@ export default function HomePage() {
                 Mohd Saad
               </p>
               <p className="text-[11px] text-slate-400">
-                Software Engineer · New Delhi, India
+                Software Engineer
               </p>
             </div>
           </div>
@@ -36,7 +36,7 @@ export default function HomePage() {
               href="https://github.com/msaad323"
               target="_blank"
               rel="noreferrer"
-              className="hover:text-sky-300"
+              className="rounded-full border border-slate-700 bg-slate-900/60 px-3 py-1 text-[11px] font-medium hover:border-sky-400 hover:text-sky-100"
             >
               GitHub
             </a>

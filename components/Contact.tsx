@@ -202,7 +202,14 @@ export function Contact() {
         </div>
 
         <div className="mt-10 flex flex-col items-center justify-between gap-3 border-t border-slate-800/80 pt-5 text-[11px] text-slate-500 md:flex-row">
-          <p>© {new Date().getFullYear()} Mohd Saad. All rights reserved.</p>
+          <div className="flex flex-col gap-1 md:flex-row md:items-center md:gap-3">
+            <p>© {new Date().getFullYear()} Mohd Saad. All rights reserved.</p>
+            <span className="hidden h-1 w-1 rounded-full bg-slate-700 md:block" />
+            <p className="flex items-center gap-1.5">
+              <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="text-sky-500"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              New Delhi, India
+            </p>
+          </div>
           <p className="text-slate-600">
             Built with Next.js, TypeScript, Tailwind CSS, and Framer Motion.
           </p>

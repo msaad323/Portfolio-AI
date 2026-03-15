@@ -9,9 +9,9 @@ const projects = [
     subtitle: "AI-driven EdTech platform for student career & university guidance",
     year: "2022",
     url: "https://web.gide.ai/",
-    role: "Full-stack feature development",
+    role: "Full-stack development",
     description:
-      "Contributed to an AI-powered guidance platform built on the MERN stack and MySQL, focusing on dashboards, authentication, and data integration.",
+      "Shipped an end-to-end AI-powered guidance platform, owning everything from responsive student dashboards and authentication to MySQL data integration.",
     tech: ["React", "Node.js", "Express", "MongoDB", "MySQL", "AI-driven workflows"]
   },
   {
@@ -19,9 +19,9 @@ const projects = [
     subtitle: "AI-powered workplace configuration tool",
     year: "2023 – Present",
     url: "https://dev-configurator.nwncarousel.video/",
-    role: "Client & admin interfaces",
+    role: "Full-stack implementation",
     description:
-      "Built interactive UIs and backend APIs for configuring modern workplaces, ensuring a smooth experience across client-facing and admin views.",
+      "Shipped interactive workspace configuration tools end-to-end, developing both the complex React interfaces and the supporting Node.js/MongoDB APIs.",
     tech: ["React", "Node.js", "MongoDB", "REST APIs"]
   },
   {
@@ -29,9 +29,9 @@ const projects = [
     subtitle: "Real-time financial data visualization platform",
     year: "2021 – 2022",
     url: "#",
-    role: "Frontend lead",
+    role: "Full-stack engineering lead",
     description:
-      "Developed a production-grade dashboard at GlobalLogic for real-time financial monitoring, reducing task completion time by 20% through UX optimizations.",
+      "Shipped a production-grade financial monitoring platform from scratch, optimizing data flow between REST APIs and high-performance React/D3.js visualizations.",
     tech: ["React", "Chart.js", "D3.js", "REST APIs", "Tailwind CSS"]
   }
 ];
@@ -59,11 +59,10 @@ export function Projects() {
         <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
           <div>
             <h2 className="text-2xl md:text-3xl font-semibold tracking-tight">
-              Selected Projects
+              Featured Work
             </h2>
             <p className="mt-2 max-w-xl text-sm text-slate-300">
-              Real-world platforms where I shipped features end-to-end – from
-              dashboards to configuration tools and portfolio infrastructure.
+              Real-world platforms where I shipped features end-to-end — from robust backend architecture and database design to refined, interactive user experiences.
             </p>
           </div>
         </div>

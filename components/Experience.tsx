@@ -33,10 +33,10 @@ const roles = [
     period: "May 2022 – Aug 2022",
     location: "Remote",
     highlights: [
-      "Built a student dashboard and subscription flow for an EdTech SaaS platform with React, Node.js, and MySQL.",
+      "Built a student dashboard and subscription flow for an EdTech SaaS platform with React, Node.js, and MS SQL.",
       "Integrated Google Analytics and custom tracking to improve funnel visibility by 60%."
     ],
-    stack: ["React", "Node.js", "MySQL", "Google Analytics"]
+    stack: ["React", "Node.js", "MS SQL", "Google Analytics"]
   }
 ];
 
