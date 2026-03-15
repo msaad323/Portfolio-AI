@@ -33,7 +33,15 @@ export default function HomePage() {
               Projects
             </a>
             <a
-              href="https://linkedin.com/in/saad-In"
+              href="https://github.com/msaad323"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-sky-300"
+            >
+              GitHub
+            </a>
+            <a
+              href="https://linkedin.com/in/saad-se"
               target="_blank"
               rel="noreferrer"
               className="rounded-full border border-slate-700 bg-slate-900/60 px-3 py-1 text-[11px] font-medium hover:border-sky-400 hover:text-sky-100"

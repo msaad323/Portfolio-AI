@@ -97,7 +97,7 @@ export function Contact() {
 
             <div className="mt-6 flex flex-wrap gap-3 text-xs text-slate-300">
               <Link
-                href="https://linkedin.com/in/saad-In"
+                href="https://linkedin.com/in/saad-se"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-1 rounded-full border border-slate-700 bg-slate-900/70 px-3 py-1.5 hover:border-sky-400 hover:text-sky-100"
@@ -106,7 +106,7 @@ export function Contact() {
                 <span>↗</span>
               </Link>
               <Link
-                href="https://github.com/"
+                href="https://github.com/msaad323"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-1 rounded-full border border-slate-700 bg-slate-900/70 px-3 py-1.5 hover:border-sky-400 hover:text-sky-100"

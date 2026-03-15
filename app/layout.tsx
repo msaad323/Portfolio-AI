@@ -7,18 +7,25 @@ const inter = Inter({
   variable: "--font-inter",
   display: "swap"
 });
-
 export const metadata: Metadata = {
-  title: "Mohd Saad | Software Engineer Portfolio",
+  title: "Mohd Saad | Full-Stack Engineer",
   description:
-    "Portfolio of Mohd Saad, Software Engineer and Full-Stack Developer specializing in React, Next.js, Node.js, and modern web applications.",
-  metadataBase: new URL("https://your-portfolio-domain.com"),
+    "Mohd Saad is a Full-Stack Software Engineer with 4+ years of experience specializing in React, Next.js, Node.js, and Spring Boot. Expert in building scalable SaaS platforms and dashboards.",
+  metadataBase: new URL("https://portfolio-ai-ms.vercel.app"),
   openGraph: {
     title: "Mohd Saad | Software Engineer",
     description:
-      "Full-stack engineer with 4+ years of experience building scalable web applications.",
+      "Full-stack engineer specializing in high-performance web applications and enterprise-grade systems.",
     type: "website",
-    url: "https://your-portfolio-domain.com"
+    url: "https://portfolio-ai-ms.vercel.app",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Mohd Saad Portfolio"
+      }
+    ]
   }
 };
 

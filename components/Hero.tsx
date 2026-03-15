@@ -133,8 +133,8 @@ export function Hero() {
                 <div className="flex flex-col justify-between gap-2 rounded-2xl border border-slate-800/80 bg-slate-900/70 p-3">
                   <p className="font-semibold text-slate-100">Stack</p>
                   <p className="text-slate-300/90">
-                    React · Next.js · Node.js · TypeScript ·
-                    PostgreSQL/MySQL/MongoDB · GCP/AWS
+                    React.js · Next.js · Node.js · TypeScript ·
+                    MS SQL · MongoDB (SQL & NoSQL) · GCP/AWS
                   </p>
                 </div>
               </div>

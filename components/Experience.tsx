@@ -10,10 +10,10 @@ const roles = [
     location: "Remote / India",
     highlights: [
       "Engineered core modules for a large-scale subscription-based video platform including onboarding and service booking flows.",
-      "Built and maintained RESTful APIs with Node.js and Express.js, integrating Google Cloud Storage for secure video at scale.",
-      "Contributed to system design decisions across MongoDB/SQL data models, service decomposition, and API versioning."
+      "Leveraged Spring Boot to build robust backend services, ensuring high availability and scalability for enterprise-grade applications.",
+      "Contributed to system design decisions across MongoDB/MS SQL data models, service decomposition, and API versioning."
     ],
-    stack: ["React", "Next.js", "Node.js", "TypeScript", "GCS", "MongoDB", "SQL"]
+    stack: ["React", "Next.js", "Node.js", "Spring Boot", "TypeScript", "GCS", "MongoDB", "MS SQL"]
   },
   {
     company: "GlobalLogic Inc",

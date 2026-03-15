@@ -9,7 +9,7 @@ const categories = [
   },
   {
     title: "Backend & Data",
-    items: ["Node.js", "Express.js", "Spring Boot", "Spring Security", "Spring Data JPA", "PostgreSQL", "MySQL", "MongoDB", "Prisma", "REST APIs", "Firebase"]
+    items: ["Node.js", "Express.js", "Spring Boot", "Spring Security", "Spring Data JPA", "MS SQL", "MongoDB", "Prisma", "REST APIs", "Firebase"]
   },
   {
     title: "Cloud & Tooling",

@@ -25,14 +25,14 @@ const projects = [
     tech: ["React", "Node.js", "MongoDB", "REST APIs"]
   },
   {
-    name: "Portfolio Website",
-    subtitle: "Personal portfolio & contact hub",
-    year: "2023",
-    url: "https://portfolio-wd4y.onrender.com",
-    role: "Full-stack owner",
+    name: "Finance Intelligence Dashboard",
+    subtitle: "Real-time financial data visualization platform",
+    year: "2021 – 2022",
+    url: "#",
+    role: "Frontend lead",
     description:
-      "Designed and built a full-stack portfolio with React and Node.js + Nodemailer, handling contact emails and deployment on Render.",
-    tech: ["React", "Node.js", "Nodemailer", "Render"]
+      "Developed a production-grade dashboard at GlobalLogic for real-time financial monitoring, reducing task completion time by 20% through UX optimizations.",
+    tech: ["React", "Chart.js", "D3.js", "REST APIs", "Tailwind CSS"]
   }
 ];
 
