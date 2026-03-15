@@ -1,0 +1,18 @@
+node_modules
+# Keep environment variables out of version control
+.env
+.env.local
+.next
+out
+build
+prisma_generate_output.txt
+out.txt
+out2.txt
+error.txt
+prisma_out.txt
+*.js
+!next.config.mjs
+!postcss.config.js
+!tailwind.config.js
+
+/generated/prisma
