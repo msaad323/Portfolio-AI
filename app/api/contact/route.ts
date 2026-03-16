@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { z } from "zod";
 import { Resend } from "resend";
 import { prisma } from "@/lib/prisma";
+import { ContactEmail } from "@/components/ContactEmail";
 
 const contactSchema = z.object({
   name: z.string().min(1).max(120),
@@ -51,22 +52,12 @@ export async function POST(request: Request) {
       }
     });
 
-    const sentAt = new Date().toISOString();
-
     const { data, error: resendError } = await resend.emails.send({
       from: fromEmail,
       to: toEmail,
       subject: `New portfolio contact from ${name}`,
       replyTo: email,
-      text: [
-        `You received a new message from your portfolio contact form.`,
-        "",
-        `Name: ${name}`,
-        `Email: ${email}`,
-        "",
-        `Message:`,
-        message,
-      ].join("\n")
+      react: ContactEmail({ name, email, message }),
     });
 
     if (resendError) {
