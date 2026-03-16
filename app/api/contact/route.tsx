@@ -56,7 +56,7 @@ export async function POST(request: Request) {
       from: fromEmail,
       to: toEmail,
       subject: `New portfolio contact from ${name}`,
-      replyTo: email,
+      reply_to: email,
       react: <ContactEmail name={name} email={email} message={message} />,
     });
 
