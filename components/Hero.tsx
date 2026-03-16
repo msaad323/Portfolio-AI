@@ -41,7 +41,7 @@ export function Hero() {
               systems & crafted interfaces.
             </h1>
             <p className="mt-5 max-w-xl text-sm md:text-base text-slate-300">
-              I&apos;m Mohd Saad, a Full-Stack Software Engineer specialized in high-performance SaaS platforms, enterprise dashboards, and scalable backend systems with 4+ years of experience.
+              I&apos;m Mohd Saad, a Full-Stack Engineer specialized in high-performance SaaS platforms, enterprise dashboards, and scalable backend systems with 4+ years of experience.
             </p>
 
             <div className="mt-7 flex flex-wrap gap-4">
