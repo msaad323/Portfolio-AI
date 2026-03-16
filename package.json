@@ -12,13 +12,15 @@
   "dependencies": {
     "@prisma/adapter-pg": "^7.5.0",
     "@prisma/client": "^7.5.0",
+    "@react-email/components": "^1.0.9",
+    "@react-email/render": "^2.0.4",
     "framer-motion": "^11.0.0",
     "next": "14.1.0",
     "pg": "^8.20.0",
     "prisma": "^7.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "resend": "^6.9.3",
+    "resend": "^3.1.0",
     "zod": "^4.3.6"
   },
   "devDependencies": {
