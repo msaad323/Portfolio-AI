@@ -47,7 +47,7 @@ export function Skills() {
             Expertise & Tech Stack
           </h2>
           <p className="mt-3 max-w-2xl text-sm leading-relaxed text-slate-400">
-            A specialized toolkit focused on building high-performance SaaS platforms, 
+            A specialized toolkit focused on building high-performance SaaS platforms,
             enterprise dashboards, and reliable full-stack systems.
           </p>
         </div>

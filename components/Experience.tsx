@@ -72,12 +72,12 @@ export function Experience() {
   return (
     <section
       id="experience"
-      className="border-t border-slate-800/70 bg-slate-950 py-16 md:py-24"
+      className="border-t border-slate-800/70 bg-slate-950 pt-20 pb-16 md:pt-28 md:pb-24"
     >
       <div className="mx-auto max-w-5xl px-4">
         <div className="mb-16">
           <h2 className="text-2xl md:text-3xl font-semibold tracking-tight text-slate-50 text-center uppercase tracking-widest">
-            Expertise & Timeline
+            Experience Timeline
           </h2>
           <p className="mt-4 max-w-xl mx-auto text-sm text-slate-400 text-center leading-relaxed">
             A track record of shipping production features in fast-moving,
@@ -125,7 +125,7 @@ export function Experience() {
 
                   {/* Right Side (Desktop: Content or Period) */}
                   <div className={`order-3 ml-12 md:ml-0 w-full ${index % 2 === 0 ? "md:order-1" : "md:order-3"}`}>
-                    <div className="rounded-3xl border border-slate-800/80 bg-slate-900/40 p-6 shadow-2xl backdrop-blur-sm transition-all hover:border-sky-500/30">
+                    <div className="rounded-3xl border border-slate-800/80 bg-slate-900/40 p-6 shadow-2xl backdrop-blur-sm transition-all hover:-translate-y-1 hover:border-sky-500/30">
                       <div className="flex flex-col gap-1">
                         <div className="flex flex-wrap items-center justify-between gap-2">
                           <h3 className="text-xs font-bold text-slate-50 uppercase tracking-widest">
@@ -175,7 +175,7 @@ export function Experience() {
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              className="relative mt-12 flex justify-center"
+              className="relative mt-20 flex justify-center"
             >
               <button
                 onClick={showMore}

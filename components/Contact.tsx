@@ -80,7 +80,7 @@ export function Contact() {
             </p>
 
             <div className="mt-8 space-y-3 text-sm text-slate-300">
-              <p className="text-xs font-medium uppercase tracking-wider text-slate-500">Connect with me:</p>
+              <p className="text-xs font-medium uppercase tracking-wider text-slate-500">Get in touch:</p>
               <a
                 href="mailto:saad500nbd@gmail.com"
                 className="flex items-center gap-2 text-sky-300 transition hover:text-sky-200"

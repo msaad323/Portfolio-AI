@@ -10,12 +10,12 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Mohd Saad | Full-Stack Engineer",
   description:
-    "Mohd Saad is a Full-Stack Software Engineer with 4+ years of experience specializing in React, Next.js, Node.js, and Spring Boot. Expert in building scalable SaaS platforms and dashboards.",
+    "Mohd Saad is a Full-Stack Software Engineer with specialized experience in React, Next.js, Node.js, and Spring Boot. Expert in building scalable SaaS platforms and high-performance dashboards.",
   metadataBase: new URL("https://portfolio-ai-ms.vercel.app"),
   openGraph: {
-    title: "Mohd Saad | Software Engineer",
+    title: "Mohd Saad | Full-Stack Engineer",
     description:
-      "Full-stack engineer specializing in high-performance web applications and enterprise-grade systems.",
+      "Full-stack engineer specializing in high-performance web applications, enterprise-grade systems, and AI-driven platforms.",
     type: "website",
     url: "https://portfolio-ai-ms.vercel.app",
     images: [
