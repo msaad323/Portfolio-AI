@@ -9,7 +9,7 @@ import { ThemeToggle } from "@/components/ThemeToggle";
 export default function HomePage() {
   return (
     <main className="min-h-screen bg-white transition-colors duration-300 dark:bg-[#020617] bg-[radial-gradient(circle_at_top,_rgba(56,189,248,0.1),_transparent_60%),radial-gradient(circle_at_bottom,_rgba(16,185,129,0.06),_transparent_60%)] dark:bg-[radial-gradient(circle_at_top,_rgba(56,189,248,0.25),_transparent_55%),radial-gradient(circle_at_bottom,_rgba(16,185,129,0.18),_transparent_55%)]">
-      <div className="mx-auto max-w-6xl px-4 pb-16 pt-6 md:pt-8">
+      <div className="mx-auto max-w-[1100px] px-4 pb-16 pt-6 md:pt-8">
         <header className="flex items-center justify-between gap-4 rounded-full border border-slate-200/80 bg-white/80 px-4 py-3 shadow-[0_18px_45px_rgba(15,23,42,0.1)] backdrop-blur transition-colors dark:border-slate-800/80 dark:bg-slate-950/80 dark:shadow-[0_18px_45px_rgba(15,23,42,0.9)]">
           <div className="flex items-center gap-3">
             <div className="flex h-9 w-9 items-center justify-center rounded-full bg-gradient-to-br from-sky-500 to-emerald-400 text-slate-900 shadow-lg shadow-sky-500/50">

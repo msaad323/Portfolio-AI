@@ -67,7 +67,7 @@ export function Contact() {
       id="contact"
       className="border-t border-slate-200/70 bg-slate-50 dark:border-slate-800/70 dark:bg-slate-950 py-16 md:py-20 transition-colors duration-300"
     >
-      <div className="mx-auto max-w-6xl px-4">
+      <div className="mx-auto max-w-[1100px] px-4">
         <div className="grid gap-10 md:grid-cols-[minmax(0,1.4fr)_minmax(0,1.1fr)]">
           <div>
             <h2 className="text-2xl md:text-3xl font-semibold tracking-tight text-slate-900 dark:text-slate-50">

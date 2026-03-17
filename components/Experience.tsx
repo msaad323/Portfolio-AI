@@ -73,7 +73,7 @@ export function Experience() {
       id="experience"
       className="border-t border-slate-200/70 bg-white dark:border-slate-800/70 dark:bg-slate-950 pt-20 pb-16 md:pt-28 md:pb-24 transition-colors duration-300"
     >
-      <div className="mx-auto max-w-5xl px-4">
+      <div className="mx-auto max-w-[1100px] px-4">
         <div className="mb-16">
           <h2 className="text-2xl md:text-3xl font-semibold tracking-tight text-slate-900 dark:text-slate-50 text-center uppercase tracking-widest">
             Experience Timeline
@@ -86,7 +86,7 @@ export function Experience() {
 
         <div className="relative">
           {/* Vertical Timeline Line */}
-          <div className="absolute left-3 top-0 h-full w-[2px] bg-gradient-to-b from-sky-500 via-emerald-400 to-slate-200 dark:to-slate-800 md:left-1/2 md:-ml-[1px]" />
+          <div className="absolute left-[1.45rem] top-0 h-full w-[2px] bg-gradient-to-b from-sky-500 via-emerald-400 to-slate-200 dark:to-slate-800 md:left-1/2 md:-ml-[1px]" />
 
           <motion.div
             initial="hidden"
@@ -105,7 +105,7 @@ export function Experience() {
                   whileInView="visible"
                   viewport={{ once: true, amount: 0.1 }}
                   exit="hidden"
-                  className="relative grid grid-cols-1 md:grid-cols-[1fr_auto_1fr] items-center gap-8 md:gap-12"
+                  className="relative grid grid-cols-[2.9rem_1fr] md:grid-cols-[1fr_auto_1fr] items-center gap-4 md:gap-12"
                 >
                   {/* Left Side (Desktop: Content or Period) */}
                   <div className={`hidden md:flex flex-col ${index % 2 === 0 ? "order-3 items-start text-left" : "order-1 items-end text-right"}`}>
@@ -114,7 +114,7 @@ export function Experience() {
                   </div>
 
                   {/* Timeline Node Column */}
-                  <div className="relative order-1 md:order-2 flex justify-start md:justify-center">
+                  <div className="relative order-1 md:order-2 flex justify-center md:justify-center">
                     <div className="z-10 flex h-6 w-6 items-center justify-center rounded-full bg-white dark:bg-slate-950">
                       <div className={`h-3 w-3 rounded-full border-2 border-white dark:border-slate-950 ${role.isCurrent ? "bg-emerald-500 shadow-[0_0_15px_rgba(52,211,153,0.4)] dark:shadow-[0_0_15px_rgba(52,211,153,0.6)]" : "bg-sky-500"}`} />
                       {role.isCurrent && (
@@ -124,7 +124,7 @@ export function Experience() {
                   </div>
 
                   {/* Right Side (Desktop: Content or Period) */}
-                  <div className={`order-3 ml-12 md:ml-0 w-full ${index % 2 === 0 ? "md:order-1" : "md:order-3"}`}>
+                  <div className={`order-3 md:ml-0 ${index % 2 === 0 ? "md:order-1" : "md:order-3"}`}>
                     <div className="rounded-3xl border border-slate-200/80 bg-white/90 p-6 shadow-[0_20px_50px_rgba(15,23,42,0.08)] transition-all hover:-translate-y-1 hover:border-sky-500/30 dark:border-slate-700/50 dark:bg-slate-900/80 dark:shadow-[0_20px_50px_rgba(0,0,0,0.3)] dark:hover:shadow-sky-500/15">
                       <div className="flex flex-col gap-1">
                         <div className="flex flex-wrap items-center justify-between gap-2">

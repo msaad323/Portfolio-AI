@@ -55,7 +55,7 @@ export function Projects() {
       id="projects"
       className="border-t border-slate-200/70 bg-[radial-gradient(circle_at_top,_rgba(56,189,248,0.06),_transparent_55%),_#ffffff] dark:border-slate-800/70 dark:bg-[radial-gradient(circle_at_top,_rgba(56,189,248,0.16),_transparent_55%),_#020617] py-16 md:py-20 transition-colors duration-300"
     >
-      <div className="mx-auto max-w-6xl px-4">
+      <div className="mx-auto max-w-[1100px] px-4">
         <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
           <div>
             <h2 className="text-2xl md:text-3xl font-semibold tracking-tight text-slate-900 dark:text-slate-50">

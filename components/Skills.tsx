@@ -41,7 +41,7 @@ export function Skills() {
       id="skills"
       className="border-t border-slate-200/60 dark:border-slate-800/80 bg-[radial-gradient(circle_at_top,_rgba(56,189,248,0.04),_transparent_60%),_#ffffff] dark:bg-[radial-gradient(circle_at_top,_rgba(56,189,248,0.06),_transparent_45%),_#02081d] py-16 md:py-24 transition-colors duration-300"
     >
-      <div className="mx-auto max-w-6xl px-4">
+      <div className="mx-auto max-w-[1100px] px-4">
         <div className="mb-12">
           <h2 className="text-2xl md:text-3xl font-semibold tracking-tight text-slate-900 dark:text-slate-50">
             Expertise & Tech Stack

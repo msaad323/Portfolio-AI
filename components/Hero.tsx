@@ -17,7 +17,7 @@ export function Hero() {
         <div className="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-slate-200 dark:via-sky-500/40 to-transparent" />
       </div>
 
-      <div className="mx-auto max-w-6xl px-4">
+      <div className="mx-auto max-w-[1100px] px-4">
         <motion.div
           initial="hidden"
           animate="visible"
