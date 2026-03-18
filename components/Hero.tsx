@@ -53,7 +53,7 @@ export function Hero() {
                 <span className="text-base">↗</span>
               </Link>
               <a
-                href="/resume.pdf"
+                href="/Mohd_Saad_Resume.pdf"
                 download="Mohd_Saad_Resume.pdf"
                 className="inline-flex items-center justify-center gap-2 rounded-full border border-slate-200 bg-white dark:border-slate-700/80 dark:bg-slate-900/60 px-6 py-2.5 text-sm font-medium text-slate-700 dark:text-slate-100 backdrop-blur-sm transition hover:border-sky-400 hover:text-sky-600 dark:hover:border-sky-400 dark:hover:text-sky-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-400 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950"
               >

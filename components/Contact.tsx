@@ -117,7 +117,7 @@ export function Contact() {
                 <span>↗</span>
               </Link>
               <a
-                href="/resume.pdf"
+                href="/Mohd_Saad_Resume.pdf"
                 download="Mohd_Saad_Resume.pdf"
                 className="inline-flex items-center gap-1 rounded-full border border-sky-500/20 bg-sky-500/5 px-3 py-1.5 text-sky-700 dark:border-sky-500/60 dark:bg-sky-500/15 dark:text-sky-100 hover:bg-sky-500/10 dark:hover:bg-sky-500/25"
               >
