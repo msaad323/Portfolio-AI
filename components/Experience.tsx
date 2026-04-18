@@ -29,16 +29,16 @@ const roles = [
     stack: ["React.js", "Node.js", "MS SQL", "Google Analytics"]
   },
   {
-    company: "GlobalLogic Inc",
-    title: "Associate Software Engineer",
+    company: "SimpleTherapy",
+    title: "Front-end Engineer",
     period: "Jun 2021 – May 2022",
-    location: "Gurugram, India",
+    location: "Remote",
     highlights: [
-      "Delivered a production-grade finance dashboard with React and Chart.js, closely matching complex Figma specs.",
-      "Improved task completion time by ~20% through thoughtful UX and real-time data visualizations.",
-      "Collaborated with backend teams to streamline API contracts and improve data flow efficiency."
+      "Handled front-end operations for a personalized virtual and in-person MSK and behavioral health care platform.",
+      "Built and maintained complex, dynamic user interfaces leveraging React.js and Redux.js.",
+      "Integrated Google Maps APIs to optimize in-person care routing and enhance the overall user experience."
     ],
-    stack: ["React.js", "Chart.js", "REST APIs"]
+    stack: ["React.js", "Redux.js", "Google Maps APIs"]
   }
 ];
 

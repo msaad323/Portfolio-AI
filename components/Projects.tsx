@@ -25,14 +25,14 @@ const projects = [
     tech: ["React", "Node.js", "MongoDB", "REST APIs"]
   },
   {
-    name: "Finance Intelligence Dashboard",
-    subtitle: "Real-time financial data visualization platform",
-    year: "2021 – 2022",
-    url: "#",
-    role: "Full-stack engineering lead",
+    name: "SimpleTherapy",
+    subtitle: "Personalized Virtual & In-Person Healthcare Platform",
+    year: "2022 – 2025",
+    url: "https://app.simpletherapy.com/",
+    role: "Front-end operations",
     description:
-      "Shipped a production-grade financial monitoring platform from scratch, optimizing data flow between REST APIs and high-performance React/D3.js visualizations.",
-    tech: ["React", "Chart.js", "D3.js", "REST APIs", "Tailwind CSS"]
+      "Managed front-end operations for a comprehensive MSK and behavioral health platform. Built dynamic interfaces with React.js and Redux.js, and integrated Google Maps APIs to optimize in-person care routing.",
+    tech: ["React.js", "Redux.js", "Google Maps API", "REST APIs"]
   }
 ];
 
