@@ -6,6 +6,10 @@ import { Contact } from "@/components/Contact";
 
 import { ThemeToggle } from "@/components/ThemeToggle";
 
+// The hero derives "years of experience" from the current date, so the
+// prerendered HTML is refreshed daily instead of being frozen at build time.
+export const revalidate = 86400;
+
 export default function HomePage() {
   return (
     <main className="min-h-screen bg-white transition-colors duration-300 dark:bg-[#020617] bg-[radial-gradient(circle_at_top,_rgba(56,189,248,0.1),_transparent_60%),radial-gradient(circle_at_bottom,_rgba(16,185,129,0.06),_transparent_60%)] dark:bg-[radial-gradient(circle_at_top,_rgba(56,189,248,0.25),_transparent_55%),radial-gradient(circle_at_bottom,_rgba(16,185,129,0.18),_transparent_55%)]">

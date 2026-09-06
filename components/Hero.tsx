@@ -3,12 +3,16 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 
+import { getYearsOfExperience } from "@/lib/experience";
+
 const heroVariants = {
   hidden: { opacity: 0, y: 24 },
   visible: { opacity: 1, y: 0 }
 };
 
 export function Hero() {
+  const yearsOfExperience = getYearsOfExperience();
+
   return (
     <section className="relative overflow-hidden py-16 md:py-24">
       <div className="pointer-events-none absolute inset-0 -z-10">
@@ -41,7 +45,7 @@ export function Hero() {
               systems & crafted interfaces.
             </h1>
             <p className="mt-5 max-w-xl text-sm md:text-base text-slate-600 dark:text-slate-300">
-              I&apos;m Mohd Saad, a Full-Stack Engineer specialized in high-performance SaaS platforms, enterprise dashboards, and scalable backend systems with 4+ years of experience.
+              I&apos;m Mohd Saad, a Full-Stack Engineer specialized in high-performance SaaS platforms, enterprise dashboards, and scalable backend systems with {yearsOfExperience}+ years of experience.
             </p>
 
             <div className="mt-7 flex flex-wrap gap-4">
@@ -74,7 +78,7 @@ export function Hero() {
                 Open to full-time & remote roles
               </span>
               <span className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white/50 dark:border-slate-800 dark:bg-slate-900/70 px-3 py-1">
-                4+ years experience · React · Next.js · Node.js
+                {yearsOfExperience}+ years experience · React · Next.js · Node.js
               </span>
             </div>
           </motion.div>
